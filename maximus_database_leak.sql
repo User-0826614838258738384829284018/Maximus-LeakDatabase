@@ -1,0 +1,7 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Nomi" (
+	"Massimiliano Fiori"	TEXT COLLATE BINARY,
+	"Asia Pechini"	TEXT COLLATE BINARY,
+	PRIMARY KEY("Massimiliano Fiori")
+);
+COMMIT;
